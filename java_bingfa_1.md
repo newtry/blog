@@ -47,8 +47,13 @@
 	
 ### 线程的生命周期
 
+状态流转图
+
+![thread status](https://github.com/newtry/blog/raw/develop/picture/thread-status.png "thread status")
+
 创建、运行、可运行、阻塞、结束
 
+线程的生命周期可由上图详细说明
 
 ## 任务与线程的取消与关闭
 
@@ -60,6 +65,7 @@
 3. how如何取消 线程决定怎么样操作使得线程取消
 
 ⚠️中断意味着想要取消线程当前的工作
+
 
 
 
