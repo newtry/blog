@@ -1,2 +1,1 @@
-# blog
-It's a person blog
+个人知识积累与总结
