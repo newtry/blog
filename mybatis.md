@@ -17,6 +17,7 @@
 
 
 	建立连接有两种方式：
+	
 	1. DriverManager
 	2. DataSource
 
@@ -30,12 +31,14 @@ http://www.iteye.com/blogs/subjects/mybatis_internals
 将xml配置文件中的信息都读取到Configuration对象中。
 封装jdk中处理xml文件的类，涉及到parsing包和builder包
 主要由以下几个类：
+
 1. XNode
 2. XPathParser
 3. XMLConfigBuilder
 4. XMLMapperBuilder
 
 mybatis一次查询的过程
+
 1. 通过SqlSessionFactoryBuilder获取SqlSessionFactory
 2. 通过SqlSessionFactory获取SqlSession
 3. 通过sqlSession调用select、update、insert、delete等方法
