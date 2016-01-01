@@ -57,7 +57,8 @@
 
 线程状态的变化入下图所示：
 
-![thread status](https://github.com/newtry/blog/raw/develop/picture/thread-status.png =500x400 "thread status")
+![thread status](https://github.com/newtry/blog/raw/develop/picture/thread-status.png)
+
 
 其中等待队列和锁池所在的左侧也属于阻塞状态。阻塞分为以下几种情况：
 
